@@ -1,0 +1,27 @@
+$black: black;
+.error {
+    color: red;
+}
+.weekly-calendar {
+    .day {
+        .event {
+            color: $black;
+            border-radius: 4px;
+            border: 1px solid $black;
+            margin: 1px;
+            cursor: pointer;
+        }
+
+        .event-title {
+            font-size: 12px;
+            line-height: 1.4;
+            color: $black;
+        }
+
+        .assignee-summary {
+            border: 1px solid $black;
+            margin: 1px;
+            font-size: 12px;
+        }
+    }
+}
